@@ -1,0 +1,82 @@
+.parent {
+    height: 30rem;
+    max-height: 100%;
+    min-height: 30rem;
+    overflow: hidden;
+} 
+.logoOnly {
+    max-height: 100%;
+    overflow: hidden;
+
+}
+.wrapper {
+    height: 400px;
+    max-height: 395px;
+    overflow-y: scroll;
+    margin-top: 0.3rem;
+
+    color:#298ed6;
+} 
+.enroll {
+    padding-top: 18rem;
+    padding-left: 9rem;
+}
+
+ li {
+    padding-top: 0.01rem;
+}
+
+article {
+    padding: 0%;
+    border-radius: var(--lwc-borderRadiusMedium,0.25rem);
+}
+img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+header {
+    background-color: #73C714;
+    color: white;
+    font-size: 1rem;
+    height: 70px;
+}
+.headerpic {
+    width: 90px;
+    height: auto;
+    padding-left: 0.8rem;
+    padding-bottom: 0.4rem;
+}
+span {
+    padding-top: 0.2rem;
+}
+:host(.cardBody) {
+    background-color: white;
+}
+:host(.mobile) {
+    font-size: 0.6125rem;
+}
+:host(.desktop) {
+    font-size: 0.8125rem;
+} 
+.badgePadding {
+    padding-left: 0.8rem;
+    font-weight: 500
+} 
+.warning {
+    margin-left: auto;
+    margin-right: auto;
+    width: 28em;
+    padding-top: 2rem;
+    display: block;
+} 
+.slds-carousel__content{
+    background:white;
+    padding:0.75rem;
+    border-bottom-left-radius:0.25rem;
+    border-bottom-right-radius:0.25rem;
+    text-align:center;
+    height:0rem;
+    overflow-x:hidden;
+    overflow-y:auto;
+  }

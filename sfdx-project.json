@@ -1,0 +1,19 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "mockupcontainer",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT"
+        }
+    ],
+    "name": "mockupcontainer",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "mockupcontainer": "0Ho5b000000CaSjCAK",
+        "mockupcontainer@0.1.0-1": "04t5b000000Le3WAAS"
+    }
+}
